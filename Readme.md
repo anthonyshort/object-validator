@@ -15,7 +15,9 @@
   The function takes two parameters, a schema (the rules for validation)
   and the data to validate.
 
-  Schemas are just objects:
+# Validation Rules
+
+Schemas are just objects:
 
     var schema = {
       "phoneNumber": {
@@ -34,7 +36,7 @@
   The keys of the schema match keys in the data object you are validating.
   The value is an object of messages with a corrosponding validation method.
 
-  ## Validation Functions
+## Validation Functions
 
   The validation method has the signature:
 
@@ -47,7 +49,7 @@
   validation fails, anything else will be treated as successful and an error
   message won't be created.
 
-  ## Interpolation
+## Interpolation
 
   Messages can access the value that was sent if they wish to be dynamic:
 
@@ -57,7 +59,7 @@
 
   {{value}} will be replace with whatever the value is for confirmEmail.
 
-  ## Example Schema
+## Example Schema
 
     var schema = {
       "givenName": {
@@ -88,7 +90,7 @@
       },
     };
 
-  ## Functions as Rules
+## Functions as Rules
 
   You can also use functions instead of objects for the attribute rules. If this function returns a message it will be treated as invalid the the message will be use.
 
