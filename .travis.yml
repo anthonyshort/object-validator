@@ -12,3 +12,7 @@ before_script:
 
 script:
   - node node_modules/.bin/mocha-phantomjs /test/tests.html
+
+notifications:
+  email:
+    - antshort+travis@gmail.com
