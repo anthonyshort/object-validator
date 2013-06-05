@@ -1,6 +1,8 @@
 
 # object-validator
 
+<a href="https://jepso-ci.com/nib-components/object-validator"><img src="https://jepso-ci.com/nib-components/object-validator.svg" alt="jepso-ci" style="max-width:100%;" align="right"></a>
+
   Validate plain objects against a set of rules. This component just takes an object
   and a set of rules like this:
 
