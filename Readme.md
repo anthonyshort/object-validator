@@ -1,7 +1,32 @@
 
 # object-validator
 
-  Validate plain objects against a set of rules
+  Validate plain objects against a set of rules. This component just takes an object
+  and a set of rules like this:
+
+```js
+var schema = {
+  "email": {
+    "Email is required": function(val) {
+      return val != null;
+    },
+    "Email is invalid": function(val) {
+      return isEmail(val);
+    }
+  }
+};
+```
+
+  and returns errors like this:
+
+```js
+{
+  "email": "Email is required"
+}
+```
+
+  **This component contains no validation methods itself. You need to bring your own.**
+  This just runs an object through functions and returns the messages.
 
 ## Installation
 
