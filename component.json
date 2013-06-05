@@ -1,0 +1,19 @@
+{
+  "name": "object-validator",
+  "repo": "nib-components/object-validator",
+  "description": "Validate plain objects against a set of rules",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/each": "*",
+    "component/type": "*"
+  },
+  "development": {
+    "chaijs/chai": "*"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
