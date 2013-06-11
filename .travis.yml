@@ -4,7 +4,7 @@ node_js:
   - 0.10
 
 install:
-  - npm install mocha-phantomjs component
+  - npm install mocha-phantomjs@2.0.3 component
 
 before_script:
   - node_modules/.bin/component install --dev
