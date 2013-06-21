@@ -1,5 +1,4 @@
-
-# object-validator
+# object-validator rules
 
 [![Build Status](https://travis-ci.org/nib-components/object-validator.png?branch=master)](https://travis-ci.org/nib-components/object-validator)
 
