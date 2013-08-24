@@ -1,4 +1,3 @@
-
 # object-validator
 
 [![Build Status](https://travis-ci.org/nib-components/object-validator.png?branch=master)](https://travis-ci.org/nib-components/object-validator)
@@ -32,7 +31,7 @@ var schema = {
 
 ## Installation
 
-    $ component install nib-components/object-validator
+    $ component install anthonyshort-components/object-validator
 
 ## API
 
