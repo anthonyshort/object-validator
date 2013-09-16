@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/nib-components/object-validator.png?branch=master)](https://travis-ci.org/nib-components/object-validator)
 
+[![browser support](https://ci.testling.com/anthonyshort/object-validator.png)](https://ci.testling.com/anthonyshort/object-validator)
+
   Validate plain objects against a set of rules. This component just takes an object
   and a set of rules like this:
 
