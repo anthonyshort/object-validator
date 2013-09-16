@@ -12,7 +12,7 @@
     <script>mocha.setup('bdd')</script>
     <script src="tests.js"></script>
     <script>
-      (mochaPhantomJS || mocha).run();
+      (window.mochaPhantomJS || mocha).run();
     </script>
   </body>
 </html>

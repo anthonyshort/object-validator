@@ -1,0 +1,12 @@
+{
+  "name": "object-validator",
+  "version": "0.0.1",
+  "testling": {
+    "scripts": [
+      "build/build.js",
+      "test/tests.js"
+    ],
+    "harness": "mocha"
+    "browsers": [ "ie8", "ie9", "ff/13", "chrome/20" ]
+  }
+}
