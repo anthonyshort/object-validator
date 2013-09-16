@@ -7,6 +7,16 @@
       "test/tests.js"
     ],
     "harness": "mocha",
-    "browsers": [ "ie8", "ie9", "ff/13", "chrome/20" ]
+    "browsers": [
+      "ie8",
+      "ie9",
+      "ie10",
+      "ff/19",
+      "chrome/25",
+      "iphone/6",
+      "ipad/6",
+      "safari/6",
+      "android/4.2"
+    ]
   }
 }
