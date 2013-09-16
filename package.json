@@ -6,7 +6,7 @@
       "build/build.js",
       "test/tests.js"
     ],
-    "harness": "mocha"
+    "harness": "mocha",
     "browsers": [ "ie8", "ie9", "ff/13", "chrome/20" ]
   }
 }
